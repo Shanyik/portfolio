@@ -7,6 +7,15 @@ import {
   starbucks,
   tesla,
   shopify,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  tailwind,
+  nodejs,
+  git,
+  docker,
 } from "../assets";
 
 export const navLinks = [
@@ -95,5 +104,44 @@ export const navLinks = [
         "Fusce convallis laoreet mauris, a molestie neque. Integer imperdiet bibendum bibendum.",
         "Donec malesuada turpis ac velit dictum varius. Ut hendrerit elit et mauris feugiat, a rutrum augue viverra.",
       ],
+    },
+  ];
+
+  export const technologies = [
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "docker",
+      icon: docker,
     },
   ];
