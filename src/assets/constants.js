@@ -16,6 +16,9 @@ import {
   nodejs,
   git,
   docker,
+  carrent,
+  jobit,
+  tripguide,
 } from "../assets";
 
 export const navLinks = [
@@ -143,5 +146,71 @@ export const navLinks = [
     {
       name: "docker",
       icon: docker,
+    },
+  ];
+
+  export const projects = [
+    {
+      name: "Lorem Ipsum",
+      description:
+        "Lorem Ipsum",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Lorem Ipsum",
+      description:
+        "Lorem Ipsum",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Lorem Ipsum",
+      description:
+        "Lorem Ipsum",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
     },
   ];
